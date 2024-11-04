@@ -17,7 +17,6 @@
 	--main-color: #00e7f9;
 	--white-color: #fdfdfd;
 	--shadow-color: rgba(0, 0, 0, .2);
-	/*--index: calc(1vh + 1vw);*/
 }
 
 .dark {
@@ -123,12 +122,14 @@ section {
 
 .home .home-content {
 	max-width: 44rem;
+	will-change: transform;
 }
 
 .home-content h3 {
 	font-size: 3.2rem;
 	font-weight: 700;
 	line-height: .3;
+	will-change: transform;
 }
 
 .home-content h1 {
@@ -160,6 +161,7 @@ section {
 
 .home-content p {
 	font-size: 1.6rem;
+	will-change: transform;
 }
 
 .home-content .social-media a {
@@ -213,6 +215,7 @@ section {
 	right: 0;
 	height: 80%;
 	pointer-events: none;
+	will-change: transform;
 }
 
 span {
@@ -229,11 +232,17 @@ span {
 .about-img img {
 	width: 40vw;
 	pointer-events: none;
+	will-change: transform;
 }
 
 .heading {
 	font-size: 4.5rem;
 	text-align: center;
+	will-change: transform;
+}
+
+.about-content {
+	will-change: transform;
 }
 
 .about-content h2 {
@@ -272,11 +281,12 @@ span {
 	height: 50rem;
 	box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
 	overflow: hidden;
+	will-change: transform;
 }
 
 .students-box img {
 	width: 100%;
-	object-fit: fill;
+	object-fit: contain;
 	transition: .5s ease;
 }
 
@@ -328,6 +338,7 @@ span {
 	max-width: 90rem;
 	width: 100%;
 	padding: 5rem;
+	will-change: transform;
 }
 
 .testimonial-container .testimonial-box {

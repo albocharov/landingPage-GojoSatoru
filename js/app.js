@@ -75,8 +75,14 @@ ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { ori
 /*========= typing effect =========*/
 document.addEventListener("DOMContentLoaded", function() {
 	const heading = document.querySelector(".home-content h1");
-	
-	setTimeout(() => {
-		heading.classList.add("typing-effect");
-	}, 1600);
+
+	if (window.innerWidth > 768) {
+		setTimeout(() => {
+			heading.classList.add("typing-effect");
+		}, 1600);
+	} else {
+		heading.style.opacity = 1;
+		heading.style.width = "auto";
+		heading.style.borderRight = "none";
+	}
 });
