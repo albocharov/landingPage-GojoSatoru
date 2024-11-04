@@ -69,5 +69,14 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-image img, .students-box, .testimonial-wrapper', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
+ScrollReveal().reveal('.about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
+
+/*========= typing effect =========*/
+document.addEventListener("DOMContentLoaded", function() {
+	const heading = document.querySelector(".home-content h1");
+	
+	setTimeout(() => {
+		heading.classList.add("typing-effect");
+	}, 1600);
+});
