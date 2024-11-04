@@ -6,15 +6,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The Strongest Shaman | Gojo Satoru</title>
 	
+	<!-- swiper css -->
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+	/>
+	
+	<!-- box icons -->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	
+	<!-- custom style -->
 	<link rel='stylesheet' href='css/style.css'>
+	
+	<!-- swiper js -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+	
+	<!-- custom js -->
 	<script src='js/app.js' defer></script>
 </head>
 <body>
 
 	<header class='header'>
-		<a href="#" class="logo">.Gojo</a>
+		<a href="#" class="logo">.Gojo Satoru</a>
 		
 		<nav class='navbar'>
 			<a href="#home" class="active">Home</a>
@@ -23,8 +36,10 @@
 		</nav>
 		
 		<div class='bx bx-moon' id="darkMode-icon"></div>
+		<div class='bx bx-menu' id="menu-icon"></div>
 	</header>
-
+	
+	<!-- home section -->
 	<section class='home' id='home'>
 		<div class='home-content'>
 			<h3>Hello, I am</h3>
@@ -68,6 +83,111 @@
 			<img src='img/gojoSatoru.png' alt='alt'>
 		</div>
 	</section>
+	
+	<!-- about section -->
+	<section class='about' id='about'>
+		<div class='about-img'>
+			<img src="img/gojoSatoru.png" alt="alt"> <!--  todo: заменить на другого годжо -->
+		</div>
+		
+		<div class='about-content'>
+			<h2 class='heading'>About <span>Me</span></h2>
+			<h3>Hi, I`m Here To Help You</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut deleniti deserunt expedita nesciunt officia quas totam voluptatum! Ut?</p>
+			
+		</div>
+	</section>
+	
+	<!-- 	portfolio section (later students section) -->
+	<section class='portfolio' id='portfolio'>
+		<h2 class='heading'>Latest <span>Project</span></h2> <!-- изменить на любимые ученики -->
+		
+		<div class='portfolio-container'>
+			<div class='portfolio-box'>
+				<img src="img/portfolio1.jpg" alt="alt">
+				
+				<div class='portfolio-layer'>
+					<h4>Web design</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class='portfolio-box'>
+				<img src="img/portfolio2.jpg" alt="alt">
+				
+				<div class='portfolio-layer'>
+					<h4>Web design</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class='portfolio-box'>
+				<img src="img/portfolio3.jpg" alt="alt">
+				
+				<div class='portfolio-layer'>
+					<h4>Web design</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class='portfolio-box'>
+				<img src="img/portfolio4.jpg" alt="alt">
+				
+				<div class='portfolio-layer'>
+					<h4>Web design</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class='portfolio-box'>
+				<img src="img/portfolio5.jpg" alt="alt">
+				
+				<div class='portfolio-layer'>
+					<h4>Web design</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- testimonial section -->
+	<div class='testimonial-container'>
+		<h2 class='heading'>Valuable <span>Testimonial</span></h2>
+		
+		<div class='testimonial-wrapper'>
+			<div class='testimonial-box mySwiper'>
+				<div class='testimonial-content swiper-wrapper'>
+					<div class='testimonial-slide swiper-slide'>
+						<img src="img/testimonial1.jpg" alt="alt">
+						<h3>Jackson Levi</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae ipsam laudantium porro quis repudiandae sit tempore totam vel voluptatibus!</p>
+					</div>
+					<div class='testimonial-slide swiper-slide'>
+						<img src="img/testimonial2.jpg" alt="alt">
+						<h3>Jackson Levi</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae ipsam laudantium porro quis repudiandae sit tempore totam vel voluptatibus!</p>
+					</div>
+					<div class='testimonial-slide swiper-slide'>
+						<img src="img/testimonial3.jpg" alt="alt">
+						<h3>Jackson Levi</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae ipsam laudantium porro quis repudiandae sit tempore totam vel voluptatibus!</p>
+					</div>
+				</div>
+				
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- footer section -->
+	<footer class='footer'>
+		<div class='footer-text'>
+			<p>Copyright &copy; 2024 by Alexander Bocharov | All Rights Reversed</p>
+		</div>
+		
+		<div class='footer-iconTop'>
+			<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+		</div>
+	</footer>
 
+<!-- 	scroll reveal time code 1:42:31 -->
 </body>
 </html>
