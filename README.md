@@ -56,14 +56,6 @@ cd landingPage-GojoSatoru
 # open index.html in your preferred browser
 ```
 
-## 👤 Author
-
-**Alexander Bocharov**
-
-- GitHub: [@albocharov](https://github.com/albocharov)
-- Telegram: [@fireon4ik](https://t.me/fireon4ik)
-- Email: alexanderbocharov.3@mail.ru
-
 ## 📄 License
 
 Copyright © 2024 Alexander Bocharov. All rights reserved.
